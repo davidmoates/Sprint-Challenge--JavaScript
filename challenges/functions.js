@@ -6,7 +6,7 @@
   * The last parameter accepts a callback
   * In the body of the function return the callback with the two parameters that you created
 */
-
+console.log('function.js starts here');
 function consume(arg1, arg2, cb) {
   return cb(arg1, arg2);
 };
